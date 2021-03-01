@@ -15,7 +15,7 @@ chromeOptions = webdriver.ChromeOptions()
 prefs = {"download.default_directory" : "/Volumes/macbackup2/_cancer_research"}
 chromeOptions.add_experimental_option("prefs",prefs)
 
-driver = webdriver.Chrome('/Users/austin/Downloads/chromedriver', chrome_options=chromeOptions)
+driver = webdriver.Chrome('/Users/Kowitt/Downloads/chromedriver', chrome_options=chromeOptions)
 wait = WebDriverWait(driver, 5)
 extended_wait = WebDriverWait(driver, 10)
 driver.get(url)
